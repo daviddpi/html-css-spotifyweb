@@ -1,0 +1,33 @@
+/* RESET  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+body img{
+    max-width: 100%;
+}
+
+.nav-flex-container{
+    display: flex;
+    justify-content: space-between;
+    background-color: blueviolet;
+}
+
+.flex-container{
+    display: flex;
+}
+
+.flex-container img{
+   width: 50px;
+}
+
+.flex-container ul li{
+    list-style-type: none;
+    display: inline-block;
+}
