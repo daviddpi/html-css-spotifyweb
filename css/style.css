@@ -101,3 +101,9 @@ body img{
     font-weight: 600;
     font-size: 1.2em;
 }
+
+.button-bar{
+    height: 50px;
+    background-color: #080b12;
+    width: calc(100vw - 200px);
+}
