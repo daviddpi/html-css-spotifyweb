@@ -31,20 +31,20 @@
             
         <!-- header  -->
         <header>
-            
             <div class="header-flex-container">
-    
                 <nav class="nav-flex-container">
-    
                     <div class="container-logo">
                         <img src="img/logo-small.svg" alt="Logo spotify">
                         <span class="logo-text">Spotify&reg;</span>
                     </div>
     
                     <ul>
-                        <li><i class="fas fa-home"></i> Home</li>
-                        <li><i class="fas fa-search"></i> Cerca</li>
-                        <li><i class="fas fa-bookmark"></i> La tua libreria</li>
+                        <!-- <li><i class="fas fa-home"></i> Home</li> -->
+                        <li class="icon"><img src="img/home.svg" alt="Icon Home"> Home</li>
+                        <!-- <li><i class="fas fa-search"></i> Cerca</li> -->
+                        <li><img src="img/search.svg" alt="Icon Search"> Cerca</li>
+                        <!-- <li><i class="fas fa-bookmark"></i> La tua libreria</li> -->
+                        <li><img src="img/libreria.svg" alt="Library Icon"> La tua libreria</li>
                     </ul>
     
                     <h3>Playlist</h3>
@@ -69,15 +69,90 @@
         </header>
     
         <main>
+            <!-- sezione bottone effettua l'upgrade  -->
             <section class="button-bar">
                 <div class="button">Effettua l'upgrade</div>
             </section>
+            
+            <section class="main-container">
+                <!-- sezione barra di navigazione del main  -->
+                <nav>
+                    <ul class="bar-music">
+                        <li>In e<span>vide</span>nza</li>
+                        <li>Podcast</li>
+                        <li>Classifiche</li>
+                        <li>Generi e mood</li>
+                        <li>Nuove uscite</li>
+                        <li>Scopri</li>
+                    </ul>
+                </nav>
+
+                <!-- sezione principale (music box) -->
+                <section class="container-music-box">
+                    <h2>Recently played</h2>
+                    <div class="row recently">
+                        <div class="square-music">
+                            <img src="img/metal_lifting.jpg" alt="hevay metal image">
+                            <h4>Hevay Metal</h4>
+                            <p>Subtitle</p>
+                        </div>
+                        <div class="square-music">
+                            <img src="img/stranger.jpeg" alt="hevay metal image">
+                            <h4>Stranger Things Vol. 1 (a Netflix Original Series Soudtrack)</h4>
+                            <p>Kyle Dixon & Micheal Stein</p>
+                        </div>
+                        <div class="square-music">
+                            <img src="img/split.jpeg" alt="hevay metal image">
+                            <h4>A quiet place</h4>
+                            <p>Subtitle</p>
+                        </div>
+                        <div class="square-music">
+                            <img src="img/cure.jpeg" alt="hevay metal image">
+                            <h4>A cure for wellness</h4>
+                            <p>Subtitle</p>
+                        </div>
+                        <div class="square-music">
+                            <img src="img/sinister.jpeg" alt="hevay metal image">
+                            <h4>Sinister</h4>
+                            <p>Subtitle</p>
+                        </div>
+                    </div>
+
+                    <h2>Created for John Doe</h2>
+                    <p>Più ascolti, più accurati saranno i suggerimenti</p>
+                    <div class="row personaly">
+                        <div class="square-music">
+                            <img src="img/radar.jpeg" alt="hevay metal image">
+                            <h4>Release Rdar</h4>
+                        </div>
+                        <div class="square-music">
+                            <img src="img/mixdaily.jpeg" alt="hevay metal image">
+                            <h4>Dally Mix 1</h4>
+                        </div>
+                    </div>
+
+                    <h2>Artisti più popolari</h2>
+                    <p>Più ascolti, più accurati saranno i suggerimenti</p>
+                    <div class="row popular">
+                        <div class="square-music">
+                            <img src="img/youg.jpeg" alt="hevay metal image">
+                            <h4>Lana del Rey</h4>
+                        </div>
+                        <div class="square-music">
+                            <img src="img/einaudi.jpeg" alt="hevay metal image">
+                            <h4>Ludovico Einaudi</h4>
+                        </div>
+                    </div>
+                </section>
+            </section>
         </main>
-    
-        <footer>
-    
-        </footer>
     </div>
+
+    <footer>
+        <div></div>
+        <div></div>
+        <div></div>
+    </footer>
 
 </body>
 </html>
