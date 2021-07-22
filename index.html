@@ -39,16 +39,13 @@
                     </div>
     
                     <ul>
-                        <!-- <li><i class="fas fa-home"></i> Home</li> -->
-                        <li class="icon"><img src="img/home.svg" alt="Icon Home"> Home</li>
-                        <!-- <li><i class="fas fa-search"></i> Cerca</li> -->
-                        <li><img src="img/search.svg" alt="Icon Search"> Cerca</li>
-                        <!-- <li><i class="fas fa-bookmark"></i> La tua libreria</li> -->
-                        <li><img src="img/libreria.svg" alt="Library Icon"> La tua libreria</li>
+                        <li><img src="img/home.svg" alt="Icon Home"><span>Home</span></li>
+                        <li><img src="img/search.svg" alt="Icon Search"><span>Cerca</span></li>
+                        <li><img src="img/libreria.svg" alt="Library Icon"><span>La tua libreria</span></li>
                     </ul>
     
                     <h3>Playlist</h3>
-                    <ul>
+                    <ul class="nav-playlist">
                         <li><i class="fas fa-plus-square"></i> Crea Playlist</li>
                         <li>Nome Playlist</li>
                         <li>Nome Playlist</li>
@@ -62,8 +59,8 @@
                 </nav>
     
                 <nav class="nav-flex-container">
-                    <div><i class="far fa-arrow-alt-circle-down"> Installa App</i></div>
-                    <div><i class="fas fa-user-circle"></i><span class="user-name"> John Doe</span></div>
+                    <div><i class="far fa-arrow-alt-circle-down"><span>Installa App</span></i></div>
+                    <div><i class="fas fa-user-circle"></i><span class="user-name"><span>John Doe</span></div>
                 </nav>
             </div>
         </header>
@@ -183,9 +180,12 @@
                 <h4>Sinister</h4>
                 <p>Brano Nome</p>
             </div>
-            <i class="far fa-heart"></i>
-            <i class="far fa-folder"></i>
+            <div class="favorites-icon">
+                <i class="far fa-heart"></i>
+                <i class="far fa-folder"></i>
+            </div>
         </div>
+
         <div class="play-music">
             <div class="multimedial-button">
                 <i class="fas fa-random"></i>
@@ -203,6 +203,7 @@
                 <span>4:35</span>
             </div>
         </div>
+
         <div class="volume">
             <i class="fas fa-list"></i>
             <i class="fas fa-desktop"></i>

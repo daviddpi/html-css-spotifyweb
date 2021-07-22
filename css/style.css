@@ -57,6 +57,7 @@ body img{
 .nav-flex-container img{
     vertical-align: middle;
     width: 20px;
+    margin-right: 5px;
 }
 
 .nav-flex-container ul li{
@@ -111,6 +112,10 @@ body img{
     padding: 10px 2px;
 }
 
+.fa-arrow-alt-circle-down span{
+    margin-left: 5px;
+}
+
 .fa-user-circle{
     padding: 5px;
     margin-left: 5px;
@@ -162,7 +167,6 @@ main{
     display: flex;
     justify-content: space-evenly;
     width: 50%;
-    min-width: 700px;
     margin: 10px auto;
     color: #7d7f84;
     list-style-type: none;
@@ -368,4 +372,115 @@ footer .fa-circle{
 .volume .fas:hover{
     color: #fdfdfd;
     cursor: pointer;
+}
+
+/* RESPONSIVE SMARTPHONE  */
+
+@media screen and (max-width: 576px){
+
+    header{
+        width: 50px;
+    }
+
+    .nav-flex-container{
+        width: 50px;
+    }
+
+    .container-logo :not(img){
+        display: none;
+    }
+
+    .nav-flex-container .nav-playlist{
+        display: none;
+    }
+
+    .nav-flex-container span, h3{
+        display: none;
+    }
+
+    .nav-flex-container ul:first-of-type li:first-child{
+        border-left: none;
+        padding-left: 14px;
+        color: #fff;
+    }
+
+    .fa-arrow-alt-circle-down{
+        color: #717171;
+        border-bottom: none;
+        width: 80%;
+        margin: 10px;
+        padding: 10px 5px;
+    }
+
+    main{
+        width: calc(100vw - 50px);
+    }
+
+    .button{
+        padding: 8px 30px;
+        font-size: 0.8em;
+    }
+
+    .bar-music{
+        display: flex;
+        flex-wrap: wrap;
+        width: 80%;
+    }
+
+    .bar-music li{
+        margin-right: 15px;
+        padding: 5px;
+    }
+
+    .square-music{
+        flex-basis: 45%;
+        margin-bottom: 15px;
+    }
+
+    .name-song{
+        width: 28%;
+    }
+
+    .name-song img{
+        width: 55px;
+    }
+
+    .name-song h4{
+        font-size: 0.8em;
+    }
+
+    .name-song p{
+        font-size: 0.6em;
+    }
+
+    .name-song .far{
+        margin: 5px;  
+        width: 100%;
+    }
+
+    .favorites-icon{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .play-music{
+        width: 33%;
+    }
+    
+    .play-bar span{
+        font-size: 0.8em;
+    }
+
+    .multimedial-button{
+        font-size: 0.7em;
+    }
+
+    .volume{
+        width: 20%;
+    }
+
+    .volume .fas{
+        font-size: 0.7em;
+    }
+
 }
