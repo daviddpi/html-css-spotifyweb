@@ -293,7 +293,28 @@ footer p{
     justify-content: center;
 }
 
+footer .fa-circle{
+    position: absolute;
+    left: 18%;
+    top: -120%;
+    color: #fdfdfd;
+    display: none;
+}
+
+.border-play-bar:hover{
+    cursor: pointer;
+}
+
+.border-play-bar:hover .progress-bar{
+    border: 2px solid #adff2f;
+}
+
+.border-play-bar:hover .fa-circle{
+    display: block;
+}
+
 .border-play-bar{
+    position: relative;
     border: 0 solid #5a5a5a;
     background-color: #5a5a5a;
     width: 80%;
