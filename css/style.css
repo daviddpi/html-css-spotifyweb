@@ -35,8 +35,9 @@ body img{
 }
 
 .nav-flex-container img{
-   width: 50px;
-   vertical-align: middle;
+    vertical-align: middle;
+    width: 20px;
+    margin-right: 5px;
 }
 
 .container-logo{
@@ -54,11 +55,6 @@ body img{
     width: 20px;
 }
 
-.nav-flex-container img{
-    vertical-align: middle;
-    width: 20px;
-    margin-right: 5px;
-}
 
 .nav-flex-container ul li{
     list-style-type: none;
@@ -374,7 +370,7 @@ footer .fa-circle{
     cursor: pointer;
 }
 
-/* RESPONSIVE SMARTPHONE  */
+/* RESPONSIVE XS  */
 
 @media screen and (max-width: 576px){
 
@@ -483,4 +479,148 @@ footer .fa-circle{
         font-size: 0.7em;
     }
 
+}
+
+/* RESPONSIVE S  */
+
+@media screen and (min-width: 577px) and (max-width: 768px){
+    
+    .button{
+        padding: 8px 30px;
+        font-size: 0.8em;
+    }
+
+    .bar-music{
+        display: flex;
+        flex-wrap: wrap;
+        width: 80%;
+    }
+
+    .bar-music li{
+        margin-right: 15px;
+        margin-bottom: 20px;
+        padding: 5px;
+        height: 25px;
+    }
+
+    .container-music-box{
+        padding-top: 0;
+    }
+    
+    .container-music-box h2{
+        margin-top: 0;
+    }
+
+    .square-music{
+        flex-basis: 40%;
+        margin-bottom: 15px;
+    }
+
+    .name-song{
+        width: 28%;
+    }
+
+    .play-music{
+        width: 33%;
+    }
+
+    .play-bar span{
+        font-size: 0.8em;
+    }
+
+    .multimedial-button{
+        font-size: 0.8em;
+    }
+
+    .volume{
+        width: 20%;
+    }
+
+    .volume .fas{
+        font-size: 0.8em;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px){
+    
+    .bar-music{
+        display: flex;
+        flex-wrap: wrap;
+        width: 80%;
+    }
+
+
+    .name-song{
+        width: 25%;
+    }
+
+    .play-music{
+        width: 35%;
+    }
+
+    .volume{
+        width: 25%;
+    }
+}
+
+@media screen and (min-width: 1800px){
+
+    .header-flex-container{
+        width: 400px;
+    }
+
+    .nav-flex-container img{
+        width: 50px;
+    }
+
+    .nav-flex-container {
+        font-size: 2em;
+    }
+
+    .nav-flex-container .fas{
+        vertical-align: middle;
+        width: 15%;
+    }
+
+    .button{
+        font-size: 2em;
+    }
+
+    .bar-music{
+        font-size: 1.5em;
+    }
+
+    .container-music-box h2{
+        font-size: 3em;
+    }
+
+    .square-music{
+        flex-basis: 16%;
+    }
+
+    .square-music h4{
+        font-size: 1.8em;
+    }
+
+    .square-music p{
+        font-size: 1.5em;
+    }
+
+    footer{
+        height: 100px;
+    }
+
+    .name-song{
+        width: 20%;
+        justify-content: space-evenly;
+        font-size: 1.6em;
+    }
+
+    .name-song img{
+        width: 100px;
+    }
+
+    .play-music{
+        font-size: 1.3em;
+    }
 }
